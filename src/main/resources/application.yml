@@ -1,0 +1,20 @@
+server:
+  port: 8200
+
+spring:
+  security:
+    user:
+      name: admin
+      password: 123456
+  datasource:
+    url: jdbc:mysql://52.80.60.134:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-init-sql: set names utf8mb4
+      maximum-pool-size: 50
+      leak-detection-threshold: 16000
+      connection-timeout: 30000
+      idle-timeout: 25000
+      minimum-idle: 5
+    username: root
+    password: t0SG4xA0IwVHHQL5

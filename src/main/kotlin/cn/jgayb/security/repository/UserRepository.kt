@@ -1,4 +1,4 @@
-package cn.jgayb.security.cn.jgayb.security
+package cn.jgayb.security.repository
 
 import cn.jgayb.security.domain.entity.User
 import org.springframework.data.jpa.repository.JpaRepository
